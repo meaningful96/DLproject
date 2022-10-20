@@ -15,7 +15,7 @@ import matplotlib.pylab as plt
 
 plt.close("all")
 
-dfLoad = pd.read_csv("https://raw.githubusercontent.com/hanwoolJeong/lectureUniv/main/testData_LinearRegression.txt"
+dfLoad = pd.read_csv("https://raw.githubusercontent.com/meaningful96/DLproject/main/DataSet/1_LinearRegression_dataset.txt"
                      , sep ="\s+")
 
 xxRaw = dfLoad["xx"]
